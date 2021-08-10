@@ -41,12 +41,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
-  eleventyConfig.addShortcode('audscss', function () {
-    return manifest['main.css']
-      ? `<link href="${manifest['pancake.min.css']}" rel="stylesheet" />`
-      : '';
-  });
-
   eleventyConfig.addShortcode('bundledcss', function () {
     return manifest['main.css']
       ? `<link href="${manifest['main.css']}" rel="stylesheet" />`
@@ -59,9 +53,9 @@ module.exports = function (eleventyConfig) {
       : '';
   });
 
-  eleventyConfig.addShortcode('audsjs', function () {
+  eleventyConfig.addShortcode('designsystemjs', function () {
     return manifest['main.js']
-      ? `<script src="${manifest['pancake.min.js']}"></script>`
+      ? `<script src="${manifest['designsystem.min.js']}"></script>`
       : '';
   });
 

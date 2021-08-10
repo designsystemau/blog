@@ -2,8 +2,16 @@
 layout: base.njk
 ---
 
-<div class="about">
-  <h1>About {{ name }}</h1>
-  {%  if image %}<img src="{{ image | url }}" alt="" class="about__image">{% endif %}
-  {{ content | safe }}
+<div class="page-container">
+  <nav class="au-breadcrumbs" aria-label="breadcrumb">
+    <ul class="au-link-list au-link-list--inline">
+      <li><a href="/">← Home</a></li>
+    </ul>
+  </nav>
+
+  <div class="about">
+    <h1>About {{ name }}</h1>
+    {%  if image %}<img src="{{ image | url }}" alt="" class="about__image">{% endif %}
+    {{ content | safe }}
+  </div>
 </div>

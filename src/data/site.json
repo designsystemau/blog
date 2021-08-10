@@ -7,21 +7,14 @@
     "email": "hi@designsystemau.org"
   },
   "defaultSocialImage": "/images/default-social-image.png",
-  "headerLinks": [
-    {
-      "text": "Posts",
-      "url": "/posts",
-      "external": false
-    },
+  "footerLinks": [
     {
       "text": "About",
       "url": "/about",
       "external": false
-    }
-  ],
-  "footerLinks": [
+    },
     {
-      "text": "Slack",
+      "text": "Join Slack",
       "url": "http://govau-guides.slack.com",
       "external": true
     },

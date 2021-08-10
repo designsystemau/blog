@@ -1,6 +1,6 @@
 ---
 title: Securing the future of the Australian Government Design System
-date: '2020-08-10'
+date: '2020-08-11'
 tags: [announcements]
 description: The future of the Australian Government Design System must be with community governance.
 permalink: posts/{{ title | slug }}/index.html
@@ -12,14 +12,14 @@ The importance, relevance and utility of the library however, is still recognise
 
 Despite its perpetuity, without project Maintainers, the reintegration of code such as bug fixes, improvements and features is not able to occur. The absence of central planning and decision-making is another issue. This combination puts downstream dependents at risk of needing to rebuild foundational aspects of their websites to work around problems.
 
-AuDS is too valuable to not have an active and empowered Maintainer group. We believe that to secure the future of the Australian Government Design System, it must move to being governed by the community, including the configuration of the Maintainer group. Evidence tells us that otherwise tying this to an alternate government department, risks the internal priorities of that department skewing the development of the platform^. 
+AuDS is too valuable to not have an active and empowered Maintainer group. We believe that to secure the future of the Australian Government Design System, it must move to being governed by the community, including the configuration of the Maintainer group. Evidence tells us that otherwise tying this to an alternate government department, risks the internal priorities of that department skewing the development of the platform¹. 
 
 Design System AU is an open community of developers, designers, accessibility experts and others set up to respond. Our mission is to provide permanent ongoing management of and support for AuDS, ensuring it will remain a viable solution for existing and future users.  We will be shipping AuDS from a new home at [https://github.com/designsystemau/design-system-components](https://github.com/designsystemau/design-system-components), under the new npm scope [@designsystem.au](https://www.npmjs.com/org/designsystem.au).
 
-**To participate in Design System AU as a Maintainer and help shape the future of AuDS, please email [members@designsystemau.org](mailto:members@designsystemau.org).**
+**To participate in Design System AU as a Maintainer and help shape the future of AuDS, please email [maintainers@designsystemau.org](mailto:maintainers@designsystemau.org).**
 
 <br/>
 <br/>
 <br/>
 <br/>
-<small>^: <a href="https://www.bennettinstitute.cam.ac.uk/blog/government-platform-who-pays/" target="_blank">Government as a platform - who pays?</a></small>
+<small>¹ <a href="https://www.bennettinstitute.cam.ac.uk/blog/government-platform-who-pays/" target="_blank">Government as a platform - who pays?</a></small>

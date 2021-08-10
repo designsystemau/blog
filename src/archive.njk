@@ -3,11 +3,21 @@ layout: base.njk
 permalink: /posts/
 ---
 
-<h1>All Posts</h1>
+<div class="page-container">
 
-<div class="tags">
-  {% include "tags-list.njk" %}
+  <nav class="au-breadcrumbs" aria-label="breadcrumb">
+    <ul class="au-link-list au-link-list--inline">
+      <li><a href="/">← Home</a></li>
+    </ul>
+  </nav>
+
+  <h1>All Posts</h1>
+
+  <div class="tags">
+    {% include "tags-list.njk" %}
+  </div>
+
+  {% set postslist = collections.posts %}
+  {% include "posts-list.njk" %}
+
 </div>
-
-{% set postslist = collections.posts %}
-{% include "posts-list.njk" %}

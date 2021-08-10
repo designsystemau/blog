@@ -6,52 +6,61 @@ layout: base.njk
   .post__content strong { font-weight: 800 }
 </style>
 
-<article class="post">
-  <header class="post__header">
-    <h1>{{ title }}</h1>
-    <div class="post__details">
-      <time datetime="{{ page.date | htmlDateString }}">
-        {{ page.date | readableDate }}
-      </time>
-      <span> | </span>
-      <span>{{ content | readingTime }} read</span>
-    </div>
-  </header>
+<div class="page-container">
 
-  <main class="post__content">
-    {{ content | safe }}
-  </main>
-
-  <aside class="post__aside">
-
-    <ul class="au-tag-list">
-      {% for tag in tags | pageTags %}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <li><a href="{{ tagUrl | url }}" class="au-tag">#{{ tag }}</a></li>
-      {% endfor %}
+  <nav class="au-breadcrumbs" aria-label="breadcrumb">
+    <ul class="au-link-list au-link-list--inline">
+      <li><a href="/">← Home</a></li>
     </ul>
+  </nav>
 
-    <nav class="post__pagination">
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-      {%- if nextPost %}
+  <article class="post">
+    <header class="post__header">
+      <h1>{{ title }}</h1>
+      <div class="post__details">
+        <time datetime="{{ page.date | htmlDateString }}">
+          {{ page.date | readableDate }}
+        </time>
+        <span> | </span>
+        <span>{{ content | readingTime }} read</span>
+      </div>
+    </header>
 
-        <a href="{{ nextPost.url | url }}">
-          <span>←</span>
-          <span>{{ nextPost.data.title }}</span>
-        </a>
+    <main class="post__content">
+      {{ content | safe }}
+    </main>
 
-      {% endif %}
+    <aside class="post__aside">
 
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}
+      <ul class="au-tag-list">
+        {% for tag in tags | pageTags %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <li><a href="{{ tagUrl | url }}" class="au-tag">#{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
 
-        <a href="{{ previousPost.url | url }}">
-          <span>{{ previousPost.data.title }}</span>
-          <span>→</span>
-        </a>
+      <nav class="post__pagination">
+        {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+        {%- if nextPost %}
 
-      {% endif %}
-    </nav>
-  </aside>
+          <a href="{{ nextPost.url | url }}">
+            <span>←</span>
+            <span>{{ nextPost.data.title }}</span>
+          </a>
 
-</article>
+        {% endif %}
+
+        {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+        {%- if previousPost %}
+
+          <a href="{{ previousPost.url | url }}">
+            <span>{{ previousPost.data.title }}</span>
+            <span>→</span>
+          </a>
+
+        {% endif %}
+      </nav>
+    </aside>
+
+  </article>
+</div>

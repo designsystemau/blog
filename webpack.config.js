@@ -59,8 +59,7 @@ module.exports = {
     new MiniCssExtractPlugin({ filename: `${baseFilename}.css` }),
     new CopyPlugin({
       patterns: [
-        { from: path.join(__dirname, "pancake/css/pancake.min.css"), to: path.join(__dirname, "/public/assets") },
-        { from: path.join(__dirname, "pancake/js/pancake.min.js"), to: path.join(__dirname, "/public/assets") },
+        { from: path.join(__dirname, "pancake/js/designsystem.min.js"), to: path.join(__dirname, "/public/assets") },
       ],
     }),
   ],

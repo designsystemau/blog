@@ -3,7 +3,6 @@
   --background: #fffffe;
   --color: rgb(41, 41, 41);
   --font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -14,4 +13,6 @@
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
   --text-6xl: 5rem;
+
+  --hero-bg-color: rgba(97, 218, 255, 0.35);
 }
