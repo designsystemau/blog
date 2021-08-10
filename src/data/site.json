@@ -1,0 +1,39 @@
+{
+  "name": "Design System AU",
+  "description": "Design System AU is an open community of developers, designers, accessibility experts and others motivated to contribute code to the Australian Government Design System.",
+  "url": "https://designsystemau.org",
+  "author": {
+    "name": "Design System AU Team",
+    "email": "hi@designsystemau.org"
+  },
+  "defaultSocialImage": "/images/default-social-image.png",
+  "headerLinks": [
+    {
+      "text": "Posts",
+      "url": "/posts",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "Slack",
+      "url": "http://govau-guides.slack.com",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/designsystemau",
+      "external": true
+    },
+    {
+      "text": "NPM",
+      "url": "https://www.npmjs.com/org/designsystem.au",
+      "external": true
+    }
+  ]
+}
