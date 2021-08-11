@@ -1,6 +1,6 @@
 ---
 title: Securing the future of the Australian Government Design System
-date: '2020-08-11'
+date: '2021-08-11'
 tags: [announcements]
 description: The future of the Australian Government Design System must be with community governance.
 permalink: posts/{{ title | slug }}/index.html
