@@ -15,8 +15,19 @@ jobs:
         uses: denoland/setup-deno@main
         with:
           deno-version: v1.x
-      - name: Check out repo
+      - name: Check out repo (pull request)
         uses: actions/checkout@v2
+        if: github.event_name == 'pull_request'
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Check out repo (push)
+        uses: actions/checkout@v2
+        if: github.event_name == 'push'
+        with:
+          fetch-depth: 0
+
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
