@@ -1,0 +1,26 @@
+name: repo-data
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://api.github.com/graphql
+          downloaded_filename: ./src/data/repo-data.json
+          authorization: "Bearer ${{ secrets.GITHUB_TOKEN }}"
+          axios_config: .github/workflows/query.json
