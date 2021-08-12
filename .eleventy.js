@@ -70,8 +70,12 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addFilter("readableDateFromIso", (dateString) => {
-    return DateTime.fromJSDate(new Date(dateString)).toFormat("dd LLL yyyy");
+  eleventyConfig.addFilter('readableDateFromIso', (dateString) => {
+    return DateTime.fromJSDate(new Date(dateString)).toFormat('dd LLL yyyy');
+  });
+
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
   eleventyConfig.addFilter('dateToIso', (dateString) => {
