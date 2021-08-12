@@ -1,4 +1,4 @@
-name: repo-data
+name: "Fetch repo data"
 on:
   workflow_dispatch: {}
   push:
