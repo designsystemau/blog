@@ -1,10 +1,12 @@
+let json;
+
 try {
-  const json = await Deno.readJSON(".github/workflows/repo-data-response.json");
+  json = await Deno.readJSON(".github/workflows/repo-data-response.json");
 } catch (error) {
   console.log("There was an error parsing the JSON response:", error);
 }
 
-if (json?.errors.length) {
+if (json?.errors?.length) {
   console.log(
     "There was an error response from the API:",
     JSON.stringify(json.errors)
