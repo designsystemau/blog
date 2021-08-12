@@ -1,0 +1,13 @@
+.contributor-activity__wrapper {
+  padding-top: 2rem;
+}
+
+.contributor-activity__list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.contributor-activity__list-item {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem 0;
+}

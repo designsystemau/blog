@@ -5,7 +5,7 @@ let json;
 let response;
 
 try {
-  json = await Deno.readFile("src/data/repo-data-response.json");
+  json = await Deno.readFile("src/data/repoData.json");
   response = JSON.parse(decoder.decode(json));
 } catch (error) {
   console.log("There was an error parsing the JSON response:", error);
@@ -19,8 +19,8 @@ if (response?.errors?.length) {
 } else {
   try {
     await Deno.writeFile(
-      "src/data/repo-data.json",
-      encoder.encode(JSON.stringify(response.data))
+      "src/data/repoData.json",
+      encoder.encode(JSON.stringify(response.data.repository))
     );
   } catch (error) {
     console.log("There was an error writing your JSON file:", error);

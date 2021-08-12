@@ -32,7 +32,7 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://api.github.com/graphql
-          downloaded_filename: src/data/repo-data-response.json
+          downloaded_filename: src/data/repoData.json
           authorization: "Bearer ${{ secrets.GITHUB_TOKEN }}"
           axios_config: .github/workflows/repo-data-query.json
           postprocess: .github/workflows/repo-data-response.js
