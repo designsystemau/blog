@@ -1,5 +1,6 @@
 const decoder = new TextDecoder("utf-8");
 const encoder = new TextEncoder();
+
 let json;
 
 try {
@@ -16,7 +17,7 @@ if (json?.errors?.length) {
   );
 } else {
   try {
-    await Deno.writeFile("src/data/repo-data.json", encoder.encoder(json.data));
+    await Deno.writeFile("src/data/repo-data.json", encoder.encode(json.data));
     console.log("Saved response data:", encoder.encode(json.data));
   } catch (error) {
     console.log("There was an error writing your JSON file:", error);
