@@ -17,7 +17,7 @@ if (json?.errors?.length) {
 } else {
   try {
     await Deno.writeFile("src/data/repo-data.json", encoder.encoder(json.data));
-    console.log("Saved response data:", encoder.encoder(json.data));
+    console.log("Saved response data:", encoder.encode(json.data));
   } catch (error) {
     console.log("There was an error writing your JSON file:", error);
   }
