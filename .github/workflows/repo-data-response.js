@@ -1,7 +1,9 @@
+import { readJSON, writeJSON } from "https://deno.land/std/fs/mod.ts";
+
 let json;
 
 try {
-  json = await Deno.readJSON(".github/workflows/repo-data-response.json");
+  json = await readJSON(".github/workflows/repo-data-response.json");
 } catch (error) {
   console.log("There was an error parsing the JSON response:", error);
 }
@@ -13,7 +15,7 @@ if (json?.errors?.length) {
   );
 } else {
   try {
-    await Deno.writeJSON("src/data/repo-data.json");
+    await writeJSON("src/data/repo-data.json");
   } catch (error) {
     console.log("There was an error writing your JSON file:", error);
   }
