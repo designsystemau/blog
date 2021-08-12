@@ -5,7 +5,7 @@ let json;
 let response;
 
 try {
-  json = await Deno.readFile(".github/workflows/repo-data-response.json");
+  json = await Deno.readFile("src/data/repo-data-response.json");
   response = JSON.parse(decoder.decode(json));
 } catch (error) {
   console.log("There was an error parsing the JSON response:", error);
