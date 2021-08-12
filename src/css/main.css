@@ -1,17 +1,17 @@
-@import "reset.css";
+@import 'reset.css';
 
 /*@import 'global.css';*/
-@import "variable.css";
+@import 'variable.css';
 
-@import "../../pancake/css/designsystem.css";
+@import '../../pancake/css/designsystem.css';
 
-@import "prism-theme.css";
+@import 'prism-theme.css';
 @import "layout.css";
 
 /*@import 'typography.css';*/
-@import "post-list.css";
-@import "contributor-activity.css";
+@import 'post-list.css';
+@import 'contributor-activity.css';
 
-@import "hero.css";
-@import "post.css";
-@import "about.css";
+@import 'hero.css';
+@import 'post.css';
+@import 'about.css';
