@@ -27,6 +27,11 @@
       "text": "NPM",
       "url": "https://www.npmjs.com/org/designsystem.au",
       "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/DesignSystemAU",
+      "external": true
     }
   ]
 }
