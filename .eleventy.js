@@ -115,7 +115,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter('pageTags', (tags) => {
     const generalTags = ['all', 'nav', 'post', 'posts'];
-
     return tags
       .toString()
       .split(',')

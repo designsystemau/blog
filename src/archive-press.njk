@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-permalink: /posts/
+permalink: /press/
 ---
 
 <div class="page-container">
@@ -11,13 +11,9 @@ permalink: /posts/
     </ul>
   </nav>
 
-  <h1>All Posts ARCHIVE</h1>
+  <h1>All Press ARCHIVE</h1>
 
-  <div class="tags">
-    {% include "tags-list.njk" %}
-  </div>
-
-  {% set postslist = collections.posts %}
-  {% include "posts-list.njk" %}
+  {% set postslist = collections.press %}
+  {% include "press-list.njk" %}
 
 </div>
