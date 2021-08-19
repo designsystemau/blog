@@ -19,3 +19,13 @@
   border-bottom: 4px solid var(--hero-bg-color);
   background-color: #f7f7f7;
 }
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

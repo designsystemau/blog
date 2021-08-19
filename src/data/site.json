@@ -14,8 +14,15 @@
       "external": false
     },
     {
+      "text": "Showcase",
+      "url": "https://github.com/designsystemau/showcase",
+      "external": true
+    }
+  ],
+  "socialLinks": [
+    {
       "text": "Join Slack",
-      "url": "http://govau-guides.slack.com",
+      "url": "https://join.slack.com/t/govau-guides/shared_invite/zt-ti4e4rcl-x7212CuhA3eQtAxzuJqUbw",
       "external": true
     },
     {

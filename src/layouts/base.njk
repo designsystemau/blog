@@ -72,11 +72,27 @@
     <footer class="au-footer au-body" role="contentinfo">
       <div class="container">
         <div class="row">
-          <nav class="col-md-12" aria-label="footer">
-            <ul class="au-link-list au-link-list--inline">
+          <nav class="col-md-12 clearfix" aria-label="footer">
+            <ul class="au-link-list au-link-list--inline" style="text-transform: uppercase">
               {% if site.footerLinks %}
 
                 {% for item in site.footerLinks %}
+                  {% set externalAttribute = '' %}
+
+                  {% if item.external %}
+                    {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
+                  {% endif %}
+
+                  <li>
+                    <a href="{{ item.url | url }}" {{ externalAttribute | safe }}>{{ item.text }}</a>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            </ul>
+            <ul class="au-link-list au-link-list--inline float-right">
+              {% if site.socialLinks %}
+
+                {% for item in site.socialLinks %}
                   {% set externalAttribute = '' %}
 
                   {% if item.external %}

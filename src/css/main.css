@@ -1,6 +1,4 @@
 @import 'reset.css';
-
-/*@import 'global.css';*/
 @import 'variable.css';
 
 @import '../../pancake/css/designsystem.css';
@@ -8,7 +6,6 @@
 @import 'prism-theme.css';
 @import "layout.css";
 
-/*@import 'typography.css';*/
 @import 'post-list.css';
 
 @import 'hero.css';
