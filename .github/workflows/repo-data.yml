@@ -1,0 +1,38 @@
+name: "Fetch repo data"
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo (pull request)
+        uses: actions/checkout@v2
+        if: github.event_name == 'pull_request'
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Check out repo (push)
+        uses: actions/checkout@v2
+        if: github.event_name == 'push'
+        with:
+          fetch-depth: 0
+
+      - name: Fetch data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://api.github.com/graphql
+          downloaded_filename: src/data/repoData.json
+          authorization: "Bearer ${{ secrets.GITHUB_TOKEN }}"
+          axios_config: .github/workflows/repo-data-query.json
+          postprocess: .github/workflows/repo-data-response.js

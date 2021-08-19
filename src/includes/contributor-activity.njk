@@ -1,0 +1,29 @@
+<h3 class="au-display-lg">Recent contributor activity on <a href="{{ repoData.url }}">{{ repoData.name }}</a></h1>
+<div class="contributor-activity__wrapper">
+  <h4 class="au-display-md">Latest issue updates</h4>
+  <ul class="contributor-activity__list">
+    {% for issue in repoData.issues.nodes %}
+      <li class="contributor-activity__list-item">
+        <p>
+          <strong>{{ issue.title }}</strong><br />
+          <a href="{{ issue.url }}">#{{ issue.number }}</a> created on {{ issue.createdAt | readableDateFromIso }}, updated {{ pullRequest.updatedAt | readableDateFromIso }}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="">View all open issues</a></p>
+</div>
+<div class="contributor-activity__wrapper">
+  <h4 class="au-display-md">Latest pull request updates</h4>
+  <ul class="contributor-activity__list">
+    {% for pullRequest in repoData.pullRequests.nodes %}
+      <li class="contributor-activity__list-item">
+        <p>
+          <strong>{{ pullRequest.title }}</strong><br />
+          <a href="{{ pullRequest.url }}">#{{ pullRequest.number }}</a> created on {{ pullRequest.createdAt | readableDateFromIso }}, updated {{ pullRequest.updatedAt | readableDateFromIso }}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="">View all pull requests</a></p>
+</div>
