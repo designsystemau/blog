@@ -37,6 +37,8 @@
   line-height: 2;
 }
 
+.post__content strong { font-weight: 800 }
+
 .post__aside {
   margin-top: 2rem;
 }
