@@ -1,0 +1,19 @@
+---
+layout: base.njk
+permalink: /press/
+---
+
+<div class="page-container">
+
+  <nav class="au-breadcrumbs" aria-label="breadcrumb">
+    <ul class="au-link-list au-link-list--inline">
+      <li><a href="/">← Home</a></li>
+    </ul>
+  </nav>
+
+  <h1>All Press</h1>
+
+  {% set postslist = collections.press %}
+  {% include "press-list.njk" %}
+
+</div>

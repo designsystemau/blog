@@ -17,6 +17,11 @@
       "text": "Showcase",
       "url": "https://github.com/designsystemau/showcase",
       "external": true
+    },
+    {
+      "text": "Press Releases",
+      "url": "/press",
+      "external": false
     }
   ],
   "socialLinks": [

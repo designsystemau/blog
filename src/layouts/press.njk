@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+
+<div class="page-container">
+
+  <nav class="au-breadcrumbs" aria-label="breadcrumb">
+    <ul class="au-link-list au-link-list--inline">
+      <li><a href="/">← Home</a></li>
+    </ul>
+  </nav>
+
+  <article class="post">
+    <header class="post__header">
+      <h1>{{ title }}</h1>
+      <div class="post__details">
+        <time datetime="{{ page.date | htmlDateString }}">
+          {{ page.date | readableDate }}
+        </time>
+      </div>
+    </header>
+
+    <main class="post__content">
+      {{ content | safe }}
+    </main>
+
+  </article>
+</div>
