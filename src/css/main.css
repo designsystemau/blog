@@ -2,12 +2,9 @@
 @import 'variable.css';
 
 @import '../../pancake/css/designsystem.css';
-
 @import 'prism-theme.css';
 @import "layout.css";
-
 @import 'post-list.css';
-
 @import 'hero.css';
 @import 'post.css';
 @import 'about.css';
