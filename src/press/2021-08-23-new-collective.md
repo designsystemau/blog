@@ -31,7 +31,7 @@ Design System AU are passionate about the vital role of the AuDS in delivering b
 ### About Design System AU
 * Design System AU is an open collective of developers, designers, accessibility experts, former DTA employees and others, established in response to this change
 * We will be providing ongoing support for the AuDS as a community, working in the open and making decisions together
-* [Joining the Design System AU Slack](https://join.slack.com/t/govau-guides/shared_invite/zt-ti4e4rcl-x7212CuhA3eQtAxzuJqUbw) or watching the [project on GitHub](https://github.com/designsystemau/design-system-components) is the best way to contribute and keep up to date with the project 
+* [Joining the Design System AU Slack](https://join.slack.com/t/govau-guides/shared_invite/zt-ti4e4rcl-x7212CuhA3eQtAxzuJqUbw) or watching the [project on GitHub](https://github.com/designsystemau/gold-design-system) is the best way to contribute and keep up to date with the project 
 * [Our work is Open Source and available here](https://github.com/designsystemau)
 * We have published a [Charter](https://github.com/designsystemau/TSC/blob/main/CHARTER.md) and an [RFC](https://github.com/designsystemau/RFCs) process to outline who, who and where you may propose changes
 

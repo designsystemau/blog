@@ -14,7 +14,7 @@ Despite its perpetuity, without project Maintainers, the reintegration of code s
 
 AuDS is too valuable to not have an active and empowered Maintainer group. We believe that to secure the future of the Australian Government Design System, it must move to a community-driven open source model, including the configuration of the Maintainer group. Evidence tells us that otherwise tying this to an alternate government department, risks the internal priorities of that department skewing the development of the platform¹. 
 
-Design System AU is an open community of developers, designers, accessibility experts and others set up to respond. Our mission is to provide permanent ongoing management of and support for AuDS, ensuring it will remain a viable solution for existing and future users.  We will be shipping AuDS from a new home at [https://github.com/designsystemau/design-system-components](https://github.com/designsystemau/design-system-components), under the new npm scope [@gold.au](https://www.npmjs.com/org/gold.au).
+Design System AU is an open community of developers, designers, accessibility experts and others set up to respond. Our mission is to provide permanent ongoing management of and support for AuDS, ensuring it will remain a viable solution for existing and future users.  We will be shipping AuDS from a new home at [https://github.com/designsystemau/gold-design-system](https://github.com/designsystemau/gold-design-system), under the new npm scope [@gold.au](https://www.npmjs.com/org/gold.au).
 
 We are committed to continuing to make the Australian Government Design System the best option for government. Further announcements will be made shortly.  
 
