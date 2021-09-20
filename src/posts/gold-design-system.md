@@ -93,9 +93,9 @@ The source code for the Design System can be found at [Github](https://github.co
     <img src="/images/gold-pr-diff.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
     
     
-Practitioners are also invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
+Practitioners are invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
 
-Finally, if you would like to join the Maintainers group (TSC) and be a decision maker for this project, please contact maintainers@designsystemau.org. 
+Finally, if you would like to join the Maintainers group (TSC) and be a decision maker on this project, please contact maintainers@designsystemau.org. Or if you have new feature ideas, please submit these by opening an [RFC](https://github.com/designsystemau/RFCs/pull/8/files). 
 
 <br />
 
