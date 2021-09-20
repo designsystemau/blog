@@ -103,21 +103,6 @@
       "modules": false,
       "location": "pancake/sass/",
       "name": "pancake.scss"
-    },
-    "json": {
-      "enable": false,
-      "location": "pancake/",
-      "name": "pancake",
-      "content": {
-        "name": true,
-        "version": true,
-        "dependencies": true,
-        "path": true,
-        "settings": true
-      }
-    },
-    "react": {
-      "location": "pancake/react/"
     }
   },
   "browserslist": [
