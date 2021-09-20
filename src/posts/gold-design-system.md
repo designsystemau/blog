@@ -94,4 +94,4 @@ Practitioners are also invited to contribute directly at [GitHub](https://github
 <br />
 
 
-This is for everyone.
+Onwards!
