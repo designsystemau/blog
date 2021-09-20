@@ -6,21 +6,25 @@ description: GOLD Design System has been published and available to be used in p
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-Today marks the launch of GOLD Design System, replacing the Australian Government Design System.
+Today marks the launch of GOLD Design System - the Government Open Language for Design.
 
+GOLD replaces the decomissioned Australian Government Design System.  
+
+* 🌟 The design system has been renamed from Australian Government Design System to GOLD Design System
 * 🚀 Docs are available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/)
 * 🚀 Npm packages have been published at [@gold.au](https://www.npmjs.com/org/gold.au)
-* 🌟 The design system has been renamed from Australian Government Design System to GOLD Design System
+* 👨‍💻 The repo for opening Issues and contributing code is now [gold-design-system](https://github.com/designsystemau/gold-design-system) on GitHub 
 
 To continue to benefit from future updates to the Design System, including security patches, see bottom of page for [Migration details](#migration-details). 
  
+ 
 ### Reasons for changing the name to GOLD
  
-Some might remember GOLD was the original name of the design system - the Government Open Language of Design.
+Some might remember GOLD was the original name of the design system.
 
 <img src="/images/previous-gold-docs.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
-As the curatorship of Australian Government Design System by the Digital Transformation Agency ends, we thought it would be appropriate to bring GOLD back! 
+We thought it was time to bring GOLD back! 
 
 The Technical Steering Committee (TSC) agreed to a name change via Request for Change (RFC) process, full details can be read at the [pull request](https://github.com/designsystemau/RFCs/pull/8/files).  
 
@@ -90,6 +94,8 @@ The source code for the Design System can be found at [Github](https://github.co
     
     
 Practitioners are also invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
+
+Finally, if you would like to join the Maintainers group (TSC) and be a decision maker for this project, please contact maintainers@designsystemau.org. 
 
 <br />
 
