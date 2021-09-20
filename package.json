@@ -78,8 +78,8 @@
     "auto-save": true,
     "plugins": true,
     "ignore": [
-      "@gov.au/pancake-react",
-      "@gov.au/pancake-json"
+      "@gold.au/pancake-react",
+      "@gold.au/pancake-json"
     ],
     "css": {
       "minified": false,
