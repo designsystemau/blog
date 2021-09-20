@@ -21,9 +21,11 @@ To continue to benefit from future updates to the Design System, including secur
     </code>
    
 
-2. Update package versions to the next major release: 
+2. Update package versions (including pancake packages) to the next major release: 
 
     `"@gov.au/buttons": "3.0.8"` → `"@gold.au/buttons": "4.0.0"`
+    
+    `"@gov.au/pancake": "~1"` → `"@gold.au/buttons": "~2.0.0"`
 
 Full technical details covered in the [Migration docs](todo).
 
@@ -51,6 +53,8 @@ We hope that changing the name back to GOLD will invigorate the community.
  
 ### New docs site
 
+<img src="/images/gold-docs.png" />
+
 Documentation is now available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/).
  
 Developers should refer to this site instead of the DTA's docs site which will go offline at the end of the month. 
@@ -59,6 +63,8 @@ The source code for Docs can be found at [Github](https://github.com/designsyste
  
 
 ### New npm packages
+
+<img src="/images/npm-org.png" />
 
 Npm packages are available at the [@gold.au organisation](https://www.npmjs.com/org/gold.au).
 
