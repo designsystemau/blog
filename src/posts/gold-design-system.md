@@ -38,7 +38,7 @@ Practitioners are also invited to contribute directly at [GitHub](https://github
  
 Some might remember GOLD was the original name of the design system, the Government Open Language of Design:
 
-<img src="/images/gold-screen-shot.png" />
+<img src="/images/previous-gold-docs.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
 With the end of the curatorship of Australian Government Design System by the DTA, we thought it was appropriate to bring GOLD back! 
 
@@ -53,7 +53,7 @@ We hope that changing the name back to GOLD will invigorate the community.
  
 ### New docs site
 
-<img src="/images/gold-docs.png" />
+<img src="/images/gold-docs.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
 Documentation is now available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/).
  
@@ -64,7 +64,7 @@ The source code for Docs can be found at [Github](https://github.com/designsyste
 
 ### New npm packages
 
-<img src="/images/npm-org.png" />
+<img src="/images/npm-org.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
 Npm packages are available at the [@gold.au organisation](https://www.npmjs.com/org/gold.au).
 
