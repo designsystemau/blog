@@ -91,7 +91,45 @@ The source code for the Design System can be found at [Github](https://github.co
     The code change will look like this: 
     
     <img src="/images/gold-pr-diff.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
+
+3. If you pancake settings in package.json reference any pancake packages, change those from `@gov.au` to `@gold.au`: 
+
+    ```
+    "pancake": {
+      "auto-save": true,
+      "plugins": true,
+      "ignore": [
+    →   "@gold.au/pancake-react",
+    →   "@gold.au/pancake-json"
+      ],
+    ```
+   
+4. To verify everything works as expected, delete the node_modules directory and run a fresh install:
+
+    ```
+    rm -rf node_modules
+    npm install
+    ```
     
+    Check the pancake directory is created as expected, for example: 
+    
+    ```
+   pancake
+   ├── css
+   │ └── designsystem.css
+   ├── js
+   │ └── designsystem.min.js
+   └── sass
+       └── pancake.scss
+    ```
+   
+
+Here's a [Pull Request diff](https://github.com/designsystemau/blog/pull/24/files) demonstrating the result of the above steps. 
+
+
+You're done!
+
+<p style="display: block; text-align: center;">* * *</p>
     
 Practitioners are invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
 
