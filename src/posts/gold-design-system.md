@@ -1,6 +1,6 @@
 ---
 title: Celebrating the launch of GOLD Design System 🚀
-date: '2021-09-20'
+date: '2021-09-21'
 tags: [announcements, releases]
 description: GOLD Design System has been published and available to be used in place of the Australian Government Design System   
 permalink: posts/{{ title | slug }}/index.html
@@ -16,29 +16,29 @@ To continue to benefit from future updates to the Design System, including secur
  
 ### Reasons for changing the name to GOLD
  
-Some might remember GOLD was the original name of the design system, the Government Open Language of Design:
+Some might remember GOLD was the original name of the design system - the Government Open Language of Design.
 
 <img src="/images/previous-gold-docs.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
-With the end of the curatorship of Australian Government Design System by the DTA, we thought it was appropriate to bring GOLD back! 
+As the curatorship of Australian Government Design System by the Digital Transformation Agency ends, we thought it would be appropriate to bring GOLD back! 
 
 The Technical Steering Committee (TSC) agreed to a name change via Request for Change (RFC) process, full details can be read at the [pull request](https://github.com/designsystemau/RFCs/pull/8/files).  
 
 From the RFC:
 
 <blockquote>
-<p style="font-style: italic; border-left: 4px solid #e5e5e5; padding-left: 16px;">Having a fun name (as opposed to a plain language name) has the effect of "creating shared language" and is better to "excite people about working together, "particularly non-technical people. That this is beneficial for "creating unity and delight" and gives your people an identity.</p>
+<p style="font-style: italic; border-left: 4px solid #e5e5e5; padding-left: 16px;">Having a fun name (as opposed to a plain language name) has the effect of "creating shared language" and is better to "excite people about working together, "particularly non-technical people. That this is beneficial for "creating unity and delight" and gives your people an identity. - Dominik Wilkowski</p>
 </blockquote>
 
-We hope that changing the name back to GOLD will invigorate the community.  
+We hope that restoring the name GOLD will help invigorate the community.   
 
  
 ### New docs site
 
+Documentation is now available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/).
+
 <img src="/images/gold-docs.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
-Documentation is now available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/).
- 
 Developers should refer to this site instead of the DTA's docs site which will go offline at the end of the month. 
  
 The source code for Docs can be found at [Github](https://github.com/designsystemau/gold-design-system-site).
@@ -46,9 +46,9 @@ The source code for Docs can be found at [Github](https://github.com/designsyste
 
 ### New npm packages
 
-<img src="/images/npm-org.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
-
 Npm packages are available at the [@gold.au organisation](https://www.npmjs.com/org/gold.au).
+
+<img src="/images/npm-org.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
 If you're using modules, you now install packages like:
 
@@ -89,8 +89,9 @@ The source code for the Design System can be found at [Github](https://github.co
     <img src="/images/gold-pr-diff.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
     
     
-Full technical details covered in the [Migration docs](todo).
-
 Practitioners are also invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
 
 <br />
+
+
+This is for everyone.
