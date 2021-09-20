@@ -1,60 +1,71 @@
 ---
-title: Celebrating the launch of GOLD Design System!
-date: '2021-09-15'
-tags: [announcements]
-description: Announcing GOLD Design System has been published and is ready for apps to migrate to  
+title: Celebrating the launch of GOLD Design System 🚀
+date: '2021-09-20'
+tags: [announcements, releases]
+description: GOLD Design System has been published and available to be used in place of the Australian Government Design System   
 permalink: posts/{{ title | slug }}/index.html
 ---
 
-<img src="/images/its-live.png" />
-
-**Great news everyone! The Design System has been published and is ready to be utilised!** 
-
-Key updates:
+Today marks the launch of GOLD Design System, replacing the Australian Government Design System.
 
 * 🚀 Docs are available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/)
-* 🚀 Npm packages have been published at the new [@gold.au organisation](https://www.npmjs.com/org/gold.au)
-* 🌟 The design system has been renamed from Australian Government Design System to GOLD Design System 
+* 🚀 Npm packages have been published at [@gold.au](https://www.npmjs.com/org/gold.au)
+* 🌟 The design system has been renamed from Australian Government Design System to GOLD Design System
 
-
-### Renamed to GOLD Design System  
+To continue to benefit from future updates to the Design System, including security patches, developers will need to: 
  
-Remember this old chestnut?: 
+1. Update code to change npm references from:
+
+    <code style="display: block; padding: 16px 16px; margin-top: 1em; margin-bottom: 2em;">
+    @gov.au/buttons → @gold.au/buttons
+    </code>
+   
+
+2. Update package versions to the next major release: 
+
+    `"@gov.au/buttons": "3.0.8"` → `"@gold.au/buttons": "4.0.0"`
+
+Full technical details covered in the [Migration docs](todo).
+
+Practitioners are also invited to contribute directly at [GitHub](https://github.com/designsystemau/gold-design-system) or through joining our [Slack community](https://designsystemau-slack.herokuapp.com/). 
+
+<br />
+
+
+### Reasons for changing the name to GOLD
+ 
+Some might remember GOLD was the original name of the design system, the Government Open Language of Design:
 
 <img src="/images/gold-screen-shot.png" />
 
-Today, GOLD is back!
+With the end of the curatorship of Australian Government Design System by the DTA, we thought it was appropriate to bring GOLD back! 
 
-GOLD stands for Government Open Language of Design. GOLD was the original name of the system that was changed to Australian Government Design System soon after it launched.
- 
-The Technical Steering Committe (TSC) agreed to a name change via RFC process, full details can be read at the [pull request](https://github.com/designsystemau/RFCs/pull/8/files).  
+The Technical Steering Committee (TSC) agreed to a name change via Request for Change (RFC) process, full details can be read at the [pull request](https://github.com/designsystemau/RFCs/pull/8/files).  
 
-There was agreement that the name change was an appropriate identity change marking the end of DTA's custodianship of the project.
-
-In addition, from the RFC:
+From the RFC:
 
 > having a fun name (as opposed to a plain language name) has the effect of "creating shared language" and is better to "excite people about working together, "particularly non-technical people. That this is beneficial for "creating unity and delight" and gives your people an identity.
+
+We hope that changing the name back to GOLD will invigorate the community.  
 
  
 ### New docs site
 
-Docs are available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/), which should now be used instead of the DTA's decommissioned docs site.
+Documentation is now available at [https://gold.designsystemau.org/](https://gold.designsystemau.org/).
  
-The code can be found at [Github](https://github.com/designsystemau/gold-design-system-site).
+Developers should refer to this site instead of the DTA's docs site which will go offline at the end of the month. 
+ 
+The source code for Docs can be found at [Github](https://github.com/designsystemau/gold-design-system-site).
  
 
 ### New npm packages
 
-Npm packages are available at the new [@gold.au organisation](https://www.npmjs.com/org/gold.au).
+Npm packages are available at the [@gold.au organisation](https://www.npmjs.com/org/gold.au).
 
-If you're using modules, you can now install packages:
+If you're using modules, you now install packages like:
 
     npm install @gold.au/button
     
-or change components in an existing package.json by replacing `@gov/au` with `@gold.au`, leaving the package versions unchanged.  
-    
-Alternatively, static assets can be download at [https://gold.designsystemau.org/download/](https://gold.designsystemau.org/download/).
+Alternatively, the starter repo can be used: [https://github.com/designsystemau/design-system-starter](https://github.com/designsystemau/design-system-starter).
 
-The source code can be found at [Github](https://github.com/designsystemau/gold-design-system). 
-
-
+The source code for the Design System can be found at [Github](https://github.com/designsystemau/gold-design-system). 
