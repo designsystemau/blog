@@ -92,7 +92,7 @@ The source code for the Design System can be found at [Github](https://github.co
     
     <img src="/images/gold-pr-diff.png" style="box-shadow: 1px 1px 10px #cccccc; border: 1px solid #e5e5e5;" />
 
-3. If you pancake settings in package.json reference any pancake packages, change those from `@gov.au` to `@gold.au`: 
+3. If your pancake config in package.json references any pancake packages, change those from `@gov.au` to `@gold.au`: 
 
     ```
     "pancake": {
